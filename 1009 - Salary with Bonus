@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    char z;
+    double a,b;
+    scanf("%s", &z);
+    scanf("%lf%lf",&a, &b);
+    double d, e;
+    d=b*15;
+    e=d/100;
+    printf("TOTAL = R$ %.2lf\n", a+e);
+    return 0;
+}
