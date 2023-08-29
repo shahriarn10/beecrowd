@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int input, hour, minute, second;
+    scanf("%d", &input);
+    hour=input/3600;
+    input= input%3600;
+    minute=input/60;
+    input= input%60;
+    second=input;
+    printf("%d:%d:%d\n", hour, minute, second);    
+ 
+    return 0;
+}
