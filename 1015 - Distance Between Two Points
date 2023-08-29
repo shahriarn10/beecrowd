@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<math.h>
+ 
+int main() {
+ 
+    double x1, y1, x2, y2, result1, result2, r12, result;
+    scanf("%lf%lf", &x1, &y1);
+    scanf("%lf%lf", &x2, &y2);
+    result1= pow((x2-x1), 2);
+    result2= pow((y2-y1), 2);
+    r12=result1+result2;
+    result=sqrt(r12);
+    printf("%.4lf\n", result);
+ 
+    return 0;
+}
