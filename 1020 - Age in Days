@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int input, years, months, days;
+    scanf("%d", &input);
+    years=input/365;
+    input= input%365;
+    printf("%d ano(s)\n", years);
+    months=input/30;
+    input= input%30;
+    printf("%d mes(es)\n", months);
+    days=input;
+    printf("%d dia(s)\n", days); 
+    return 0;
+}
